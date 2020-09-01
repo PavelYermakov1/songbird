@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/songbird/static/css/main.21b810cb.chunk.css",
+    "main.js": "/songbird/static/js/main.f07680d7.chunk.js",
+    "main.js.map": "/songbird/static/js/main.f07680d7.chunk.js.map",
+    "runtime-main.js": "/songbird/static/js/runtime-main.710c5ffc.js",
+    "runtime-main.js.map": "/songbird/static/js/runtime-main.710c5ffc.js.map",
+    "static/css/2.e3f36e05.chunk.css": "/songbird/static/css/2.e3f36e05.chunk.css",
+    "static/js/2.e756a2a8.chunk.js": "/songbird/static/js/2.e756a2a8.chunk.js",
+    "static/js/2.e756a2a8.chunk.js.map": "/songbird/static/js/2.e756a2a8.chunk.js.map",
+    "index.html": "/songbird/index.html",
+    "precache-manifest.c1a61713d4f3f031efc55d2318e61b55.js": "/songbird/precache-manifest.c1a61713d4f3f031efc55d2318e61b55.js",
+    "service-worker.js": "/songbird/service-worker.js",
+    "static/css/2.e3f36e05.chunk.css.map": "/songbird/static/css/2.e3f36e05.chunk.css.map",
+    "static/css/main.21b810cb.chunk.css.map": "/songbird/static/css/main.21b810cb.chunk.css.map",
+    "static/js/2.e756a2a8.chunk.js.LICENSE.txt": "/songbird/static/js/2.e756a2a8.chunk.js.LICENSE.txt",
+    "static/media/congratulation.mp3": "/songbird/static/media/congratulation.8956b938.mp3",
+    "static/media/fake-bird.jpg": "/songbird/static/media/fake-bird.06a46938.jpg",
+    "static/media/logo.png": "/songbird/static/media/logo.8d554ba1.png",
+    "static/media/pause.svg": "/songbird/static/media/pause.769c9f2e.svg",
+    "static/media/play.svg": "/songbird/static/media/play.25582e1c.svg",
+    "static/media/right.mp3": "/songbird/static/media/right.a1e9e8b6.mp3",
+    "static/media/wrong.mp3": "/songbird/static/media/wrong.165166d5.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.710c5ffc.js",
+    "static/css/2.e3f36e05.chunk.css",
+    "static/js/2.e756a2a8.chunk.js",
+    "static/css/main.21b810cb.chunk.css",
+    "static/js/main.f07680d7.chunk.js"
+  ]
+}
