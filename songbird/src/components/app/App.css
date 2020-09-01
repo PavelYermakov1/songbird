@@ -1,0 +1,15 @@
+.appWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.answerWrapper {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .answerWrapper {
+    flex-direction: column;
+  }
+}
