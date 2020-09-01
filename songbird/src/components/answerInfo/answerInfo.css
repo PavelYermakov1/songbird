@@ -1,0 +1,47 @@
+.answerInfo {
+  flex-basis: 50%;
+  margin-left: 7.5px;
+  padding: 20px 20px 0 20px;
+  color: #fff;
+  background-color: #303030;
+  border-radius: 10px;
+  border: 1px solid #4e4c4b;
+}
+
+.birdImgWrapper {
+  display: flex;
+}
+
+.birdImg {
+  width: 200px;
+  height: 180px;
+  margin-right: 15px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.birdInfo {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .answerInfo {
+    margin-left: 0;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .birdImgWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .birdInfo {
+    text-align: center;
+  }
+
+  .birdImg {
+    margin-right: 0;
+  }
+}

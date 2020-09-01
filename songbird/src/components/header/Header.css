@@ -1,0 +1,44 @@
+.header {
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.logo {
+  width: 200px;
+  height: 55px;
+}
+
+.score {
+  font-size: 20px;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menuItem {
+  flex: auto;
+  padding: 10px 20px;
+  background-color: #008966;
+  color: #fff;
+  list-style: none;
+  text-align: center;
+}
+
+.menuItem.active {
+  background-color: #00bc8c;
+}
+
+@media (max-width: 400px) {
+  .menu {
+    flex-direction: column;
+  }
+}

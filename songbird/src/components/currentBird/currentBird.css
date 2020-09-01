@@ -1,0 +1,61 @@
+.currentBirdWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #303030;
+  border: 1px solid #4e4c4b;
+  border-radius: 10px;
+}
+
+.birdImgWrapper {
+  flex-basis: 20%;
+  margin-right: 10px;
+}
+
+.birdImg {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.birdInfo {
+  flex-basis: 80%;
+  margin-left: 10px;
+}
+
+.birdName {
+  font-size: 20px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .currentBirdWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .birdInfo {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .birdImgWrapper {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .currentBirdWrapper {
+    padding: 10px 5px;
+  }
+
+  .birdInfo {
+    flex-basis: 100%;
+  }
+
+  .birdImgWrapper {
+    flex-basis: 70%;
+  }
+}
