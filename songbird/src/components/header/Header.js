@@ -1,14 +1,14 @@
 import React from "react";
-import style from "./Header.css";
+import "./Header.css";
 import logo from "../../assets/img/logo.png";
 
 function Header(props) {
   const currentGroup = props.birdsGroups[props.currentGroup];
 
   const birdsGroups = props.birdsGroups.map((e, i) => {
-    let classNames = style.menuItem;
+    let classNames = "menuItem";
     if (e === currentGroup) {
-      classNames += " " + style.active;
+      classNames += " " + "active";
     }
     return (
       <li className={classNames} key={i}>
@@ -18,17 +18,17 @@ function Header(props) {
   });
 
   return (
-    <div className={style.header}>
-      <div className={style.headerTop}>
+    <div className="header">
+      <div className="headerTop">
         <div>
-          <img className={style.logo} src={logo} alt="" />
+          <img className="logo" src={logo} alt="" />
         </div>
-        <div className={style.score}>
+        <div className="score">
           <span>Score: {props.score}</span>
         </div>
       </div>
 
-      <ul className={style.menu}>{birdsGroups}</ul>
+      <ul className="menu">{birdsGroups}</ul>
     </div>
   );
 }

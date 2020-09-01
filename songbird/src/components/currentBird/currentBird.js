@@ -1,6 +1,6 @@
 import React from "react";
 import AudioPlayer, { RHAP_UI } from "react-h5-audio-player";
-import style from "./CurrentBird.css";
+import "./currentBird.css";
 import "./audio-player.css";
 import "react-h5-audio-player/lib/styles.css";
 import placeholder from "../../assets/img/fake-bird.jpg";
@@ -18,13 +18,13 @@ function CurrentBird(props) {
   }
 
   return (
-    <div className={style.currentBirdWrapper}>
-      <div className={style.birdImgWrapper}>
-        <img className={style.birdImg} src={birdImage} alt={birdName} />
+    <div className="currentBirdWrapper">
+      <div className="birdImgWrapper">
+        <img className="birdImg" src={birdImage} alt={birdName} />
       </div>
 
-      <div className={style.birdInfo}>
-        <p className={style.birdName}>{birdName}</p>
+      <div className="birdInfo">
+        <p className="birdName">{birdName}</p>
         <AudioPlayer
           autoPlayAfterSrcChange={false}
           src={props.currentBird.audio}

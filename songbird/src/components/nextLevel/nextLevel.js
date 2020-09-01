@@ -1,9 +1,9 @@
 import React from "react";
-import style from "./NextLevel.css";
+import "./nextLevel.css";
 
 function NextLevel(props) {
-  let classes = style.button;
-  if (!props.disabled) classes += " " + style.active;
+  let classes = "button";
+  if (!props.disabled) classes += " " + "active";
 
   return (
     <button

@@ -1,0 +1,25 @@
+.wrapper {
+  max-width: 800px;
+  margin: 100px auto 0;
+  padding: 20px;
+  background-color: #303030;
+  color: #fff;
+  border: 1px solid #4e4c4b;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.wrapper p {
+  font-size: 20px;
+}
+
+.repeat {
+  padding: 15px 30px;
+  margin-top: 15px;
+  background-color: #00bc8c;
+  border: 1px solid #4e4c4b;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}

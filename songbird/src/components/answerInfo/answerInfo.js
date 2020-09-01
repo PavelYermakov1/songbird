@@ -1,11 +1,11 @@
 import React from "react";
-import style from "./AnswerInfo.css";
+import "./answerInfo.css";
 import AudioPlayer, { RHAP_UI } from "react-h5-audio-player";
 import { pause, play } from "../../constants";
 
 function AnswerInfo(props) {
   return (
-    <div className={style.answerInfo}>
+    <div className="answerInfo">
       {!props.answerBird ? (
         <>
           <p>Послушайте плеер.</p>
@@ -13,13 +13,13 @@ function AnswerInfo(props) {
         </>
       ) : (
         <div>
-          <div className={style.birdImgWrapper}>
+          <div className="birdImgWrapper">
             <img
-              className={style.birdImg}
+              className="birdImg"
               src={props.answerBird.image}
               alt={props.answerBird.name}
             />
-            <div className={style.birdInfo}>
+            <div className="birdInfo">
               <p>{props.answerBird.name}</p>
               <p>{props.answerBird.species}</p>
               <AudioPlayer

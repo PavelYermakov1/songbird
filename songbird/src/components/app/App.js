@@ -1,11 +1,14 @@
 import React, { useState } from "react";
-import style from "./App.css";
+import "./App.css";
 import Header from "../header/Header";
-
+import CurrentBird from "../currentBird/currentBird";
+import AnswerOptions from "../answerOptions/answerOptions";
 import AnswerInfo from "../answerInfo/answerInfo";
-
+import NextLevel from "../nextLevel/nextLevel";
 import birdsData from "../../data/dataBirds";
 import birdsGroups from "../../data/groupBirds";
+import TheEnd from "../end/end";
+import { getRandomBird } from "../../utilits";
 
 function App() {
   const [currentGroup, setCurrentGroup] = useState(0);
@@ -28,13 +31,13 @@ function App() {
 
   if (theEnd) {
     return (
-      <div className={style.appWrapper}>
+      <div className="appWrapper">
         <TheEnd score={score} />
       </div>
     );
   } else {
     return (
-      <div className={style.appWrapper}>
+      <div className="appWrapper">
         <Header
           birdsGroups={birdsGroups}
           currentGroup={currentGroup}
@@ -44,7 +47,7 @@ function App() {
           currentBird={currentBird}
           nextLevelStatus={nextLevelStatus}
         />
-        <div className={style.answerWrapper}>
+        <div className="answerWrapper">
           <AnswerOptions
             birdsData={birdsData}
             currentGroup={currentGroup}
